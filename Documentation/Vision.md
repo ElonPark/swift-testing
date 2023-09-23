@@ -734,7 +734,7 @@ sub-expressions to their evaluated values, such as `x → 2`:
 
 ```swift
 let x = 2
-#expect(x < 1)  // failed: (x → 2) > 1
+#expect(x < 1)  // failed: (x → 2) < 1
 ```
 
 #### Handling optionals
